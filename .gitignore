@@ -1,0 +1,30 @@
+# Cartelle private (NON pushare)
+_private/
+*.docx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Reports generati (rigenerabili)
+simulation/python/reports/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Node (per il futuro)
+node_modules/
+dist/
+
+# PlatformIO (per il futuro firmware)
+.pio/
+.pioenvs/
